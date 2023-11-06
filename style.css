@@ -124,3 +124,31 @@ input{
     border: none;
     cursor: pointer;
 }
+
+/*=====  content image =====*/
+
+.content .content-right{
+    display: block;
+    width: 100%;
+}
+
+.content .content-right img{
+    width: 400px;
+    height: auto;
+    position: relative;
+    user-select: none;
+    animation: rotate 10s linear infinite;
+}
+
+/*====content-right ANIMATION==== */
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
